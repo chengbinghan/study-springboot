@@ -33,7 +33,7 @@ public class HelloApplication {
     public static void main(String[] args) {
         // SpringApplication.run(HelloApplication.class, args);
         SpringApplication application = new SpringApplication(HelloApplication.class);
-        application.setBannerMode(Mode.OFF);
+        application.setBannerMode(Mode.CONSOLE);
         application.run(args);
     }
 
